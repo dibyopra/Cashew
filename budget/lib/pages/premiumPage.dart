@@ -26,8 +26,12 @@ import 'package:sa3_liquid/sa3_liquid.dart';
 import 'package:budget/widgets/openContainerNavigation.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 
-bool premiumPopupEnabled = kIsWeb == false;
-bool tryStoreEnabled = kIsWeb == false && kDebugMode == false;
+// Pro/IAP features are disabled in this build. The premium popup gates
+// (add transaction, budgets, objectives, past budgets) all short-circuit to
+// "unlocked" through hidePremiumPopup().
+bool premiumPopupEnabled = false;
+// Never contact Play Billing / App Store from this build.
+bool tryStoreEnabled = false;
 StreamSubscription<List<PurchaseDetails>>? purchaseListener;
 Map<String, ProductDetails> storeProducts = {};
 Map<String, String> productIDs = {

@@ -47,30 +47,28 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBGiaRl72d4k3Ki0dh8ra-gU4v2z04CgIw',
-    appId: '1:267621253497:web:12558fe9abebf7fa842fa8',
-    messagingSenderId: '267621253497',
-    projectId: 'budget-app-flutter',
-    authDomain: 'budget-app-flutter.firebaseapp.com',
-    storageBucket: 'budget-app-flutter.appspot.com',
+    apiKey: 'AIzaSyCIB0GlCpyyueLcwcfDLef7953Nv9liJ4A',
+    appId: '1:465215655589:web:c03ca65de18558d55d074c',
+    messagingSenderId: '465215655589',
+    projectId: 'cashew-b2bf8',
+    authDomain: 'cashew-b2bf8.firebaseapp.com',
+    storageBucket: 'cashew-b2bf8.firebasestorage.app',
+    measurementId: 'G-Z0C85PNYYC',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDNVDtwGJUHBZohwB2RDeUco-5hAGfx2bA',
-    appId: '1:267621253497:android:e7a2967eaf8dd072842fa8',
-    messagingSenderId: '267621253497',
-    projectId: 'budget-app-flutter',
-    storageBucket: 'budget-app-flutter.appspot.com',
+    apiKey: 'AIzaSyAe3fCUXk2TkHe8RWnTBlgrwZUjH4PBzCM',
+    appId: '1:465215655589:android:38c78c4a0f0e53ca5d074c',
+    messagingSenderId: '465215655589',
+    projectId: 'cashew-b2bf8',
+    storageBucket: 'cashew-b2bf8.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBts7THLrbIh-xReN70k5AsknAMwBNhrD0',
-    appId: '1:267621253497:ios:17af91fbac7c01b9842fa8',
-    messagingSenderId: '267621253497',
-    projectId: 'budget-app-flutter',
-    storageBucket: 'budget-app-flutter.appspot.com',
-    androidClientId: '267621253497-0h976snjlf34gs8m75bh8nik8gcvr2mk.apps.googleusercontent.com',
-    iosClientId: '267621253497-ih94g1srq37gun4mdmvadgl3ev588vpf.apps.googleusercontent.com',
+    apiKey: 'AIzaSyDFXHpdXDA71KvLSK-MGLXw36XKZCnwPdk',
+    appId: '1:465215655589:ios:125c5c708d99f71c5d074c',
+    messagingSenderId: '465215655589',
+    projectId: 'cashew-b2bf8',
+    storageBucket: 'cashew-b2bf8.firebasestorage.app',
     iosBundleId: 'com.budget.tracker-app',
   );
 }
